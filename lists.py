@@ -6,6 +6,8 @@
 # bool - boolean (True/False)
 # *#
 
+# list is a collection of items in a particular order.
+
 hall = 11.25
 kit = 18.0
 liv = 20.0
