@@ -11,7 +11,6 @@ class Book:
     def getprice(self):
         return self.price
 
-
 # TODO : create instance of the class
 book1 = Book("SO meow","MU_KC", 9866, 1000)
 book2 = Book("meow pheow","I_AM_KC", 321, 321)
