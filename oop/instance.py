@@ -31,3 +31,5 @@ book2.setdiscount(0.25)
 print(book2.getprice())
 
 print(book2.__secret)  # This will raise an AttributeError because __secret is a private property
+
+print(book2._Book__secret)  # This will access the private property using name mangling
