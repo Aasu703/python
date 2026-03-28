@@ -1,81 +1,77 @@
 # Numeric Python (NumPy) library import
 
 import numpy as np
-# height = [1.73, 1.68, 1.71, 1.89, 1.79]
-# np_height = np.array(height)
-# print(np_height)
+height = [1.73, 1.68, 1.71, 1.89, 1.79]
+np_height = np.array(height)
+print(np_height)
 
-# weight = [65.4, 59.2, 63.6, 88.4, 68.7]
-# np_weight = np.array(weight)
-# print((np_height/np_height)**2)
+weight = [65.4, 59.2, 63.6, 88.4, 68.7]
+np_weight = np.array(weight)
+print((np_height/np_height)**2)
 
-# print((height/weight)**2)  # This will raise an error since height and weight are lists
-
-
-# # Import the numpy package as np
+print((height/weight)**2)  # This will raise an error since height and weight are lists
 
 
-# baseball = [180, 215, 210, 210, 188, 176, 209, 200]
-
-# # Create a numpy array from baseball: np_baseball
-# np_baseball = np.array(baseball)
-
-# # Print out type of np_baseball
-# print(type(np_baseball))
-
-# # Import numpy
-# import numpy as np
-
-# # Create a numpy array from height_in: np_height_in
-# height_in=[65, 68, 69, 71, 72]
-# np_height_in = np.array(height_in)
-
-# # Print out np_height_in
-# print(np_height_in)
-
-# # Convert np_height_in to m: np_height_m
-# np_height_m = np_height_in * 0.0254 
+# Import the numpy package as np
 
 
-# # Print np_height_m
-# print(np_height_m)
+baseball = [180, 215, 210, 210, 188, 176, 209, 200]
+
+# Create a numpy array from baseball: np_baseball
+np_baseball = np.array(baseball)
+
+# Print out type of np_baseball
+print(type(np_baseball))
 
 # Import numpy
-# import numpy as np
 
-# # Create a numpy array from height_in: np_height_in
-# height_in=[70,71,72,73,74]
-# np_height_in=np.array(height_in)
-# # Print out np_height_in
-# print(np_height_in)
-# # Convert np_height_in to m: np_height_m
-# np_height_m = np_height_in * 0.0254
+# Create a numpy array from height_in: np_height_in
+height_in=[65, 68, 69, 71, 72]
+np_height_in = np.array(height_in)
 
+# Print out np_height_in
+print(np_height_in)
 
-# # Print np_height_m
-# print(np_height_m)
+# Convert np_height_in to m: np_height_m
+np_height_m = np_height_in * 0.0254 
 
 
-# import numpy as np
-# x=[True, 1, 2]
-# y=[3,4, False]
-# np_x=np.array(x)
-# np_y=np.array(y)
+# Print np_height_m
+print(np_height_m)
 
-# print(np.array([True, 1, 2]) + np.array([3, 4, False]))
-# print(np_x + np_y)
 
-# Subsetting NumPy Arrays
-# import numpy as np
 
-# np_weight_lb = np.array(weight_lb)
-# np_height_in = np.array(height_in)
+# Create a numpy array from height_in: np_height_in
+height_in=[70,71,72,73,74]
+np_height_in=np.array(height_in)
+# Print out np_height_in
+print(np_height_in)
+# Convert np_height_in to m: np_height_m
+np_height_m = np_height_in * 0.0254
 
-# # Print out the weight at index 50
-# print(np_weight_lb[50])
 
-# # Print out sub-array of np_height_in: index 100 up to and including index 110
-# print(np_height_in[100:111])
+# Print np_height_m
+print(np_height_m)
+
+
+
+x=[True, 1, 2]
+y=[3,4, False]
+np_x=np.array(x)
+np_y=np.array(y)
+
+print(np.array([True, 1, 2]) + np.array([3, 4, False]))
+print(np_x + np_y)
+
+
+np_weight_lb = np.array(weight_lb)
+np_height_in = np.array(height_in)
+
+# Print out the weight at index 50
+print(np_weight_lb[50])
+
+# Print out sub-array of np_height_in: index 100 up to and including index 110
+print(np_height_in[100:111])
 
 np_2d = ([1.73, 1.68, 1.71, 1.89, 1.79],
                   [65.4, 59.2, 63.6, 88.4, 68.7])
